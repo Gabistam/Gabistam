@@ -1,0 +1,144 @@
+#heading-assos
+{
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 0px 0px 200% 200%;
+    padding-bottom: 2px;
+    color: orange;
+    background: #393836;
+    float: none;
+
+
+}
+
+.heading-option
+{
+    text-align: center;
+    border: solid 0.5px;
+    background: #393836;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 70px;
+    width: 100%;
+   
+    
+}
+
+.heading-option h3
+{
+    color: orange;
+    margin: 15px;
+    font-size: 25px;
+}
+ .options
+{
+    margin-top: 50px;
+    border: solid 0px;
+    box-shadow: #393836 1px 6px 20px;
+    border-radius: 15px;
+    background: white;
+}
+
+#subtitles
+{
+    text-align: center;
+    border: solid 0px;
+    box-shadow: #393836 1px 2px 4px ;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+#subtitles h5
+{
+    margin: 4px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: orange;
+}
+
+#divider
+{
+    border: solid orange 0.1px;
+    padding: 0px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+#cards
+{
+    width: 130px;
+    height: 160px;
+    margin: 7px;
+    border: solid 0px;
+    border-radius: 15px;
+    box-shadow: rgba(30, 122, 243, 0.637) 0.5px 1px 2px;
+    transition: .2s ease;
+}
+
+.card-title
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-body span
+{
+    font-size: 10px;
+    color: orange;
+}
+
+#cards img
+{
+   width: 105px; 
+   height: 95px;
+   margin-bottom: 0px;
+}
+
+.card-body
+{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.parcours button
+{
+    padding: 8px;
+    border-radius: 20px;
+    margin: 15px;
+
+}
+
+#profile-card
+{
+    width: 170px;
+    height: 160px;
+    border: solid 0px;
+    border-radius: 15px;
+    box-shadow: #1e7af3a2 0.5px 1px 2px;
+
+}
+
+
+
+#cards:hover 
+{
+  opacity: .6;
+  box-shadow: #1e7af3a2 2px 8px 20px;
+}
+
+
+
+input:disabled {
+  background: #8f8e8e;
+}
+
+@media (max-width: 767px) 
+{
+    #subtitles
+    {
+        margin: 5px;
+    }
+}
